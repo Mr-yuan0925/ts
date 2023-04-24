@@ -46,7 +46,7 @@ class Teacher3 extends Person {
         return 'teacher3 GetTeacherName'
     };
     getName(): string {
-       return (super.getName() +  ' ' + 'teacher3 GetName')
+       return super.getName() +  ' ' + 'teacher3 GetName'
     }
 }
 
