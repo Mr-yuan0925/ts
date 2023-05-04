@@ -1,0 +1,16 @@
+{
+  "name": "day08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
