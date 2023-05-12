@@ -3,7 +3,6 @@ import fs from "fs";
 import path from "path";
 import superagent from 'superagent'
 import Other from './other'
-import TomOther from "./tomOther";
 
 export interface OtherType {
     analyze: (html:string,filePath: string) => string
@@ -20,15 +19,13 @@ class Crowller {
         return result.text
     }
 
-
-
     writeFile(content: string){
         fs.writeFileSync(this.filePath,JSON.parse(content))
     }
 
     async initSpiderProcess() {
         const html = await this.getRwaHTML();
-        const fileContent = other.analyze(html, this.filePath)
+        const fileContent = this.other.analyze(html, this.filePath)
         this.writeFile(JSON.stringify(fileContent));
 
     }
@@ -37,10 +34,4 @@ class Crowller {
     }
 }
 
-const secret = "secretKey";
-const url = `http://www.dell-lee.com/typescript/demo.html?secret=${secret}`;
-
-const other = new TomOther();
-new Crowller(url,other);
-
-console.log("Tom is change is")
+export default Crowller

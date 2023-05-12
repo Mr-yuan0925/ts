@@ -26,28 +26,28 @@
                 <div class="course-item">
                   <img class="course-img" src="https://serverless-project-static-files.oss-cn-beijing.aliyuncs.com/apiServerImages/vue.jpg" />
                   <p class="course-desc">Vue2.5开发去哪儿网App</p>
-                  <p class="course-desc">当前课程学习人数：96</p>
+                  <p class="course-desc">当前课程学习人数：60</p>
                 </div>
               </a>
               <a href="https://coding.imooc.com/class/229.html" class="course-link" target="_blank">
                 <div class="course-item">
                   <img class="course-img" src="https://serverless-project-static-files.oss-cn-beijing.aliyuncs.com/apiServerImages/react.jpg" />
                   <p class="course-desc">React 16.4 开发简书项目</p>
-                  <p class="course-desc">当前课程学习人数：28</p>
+                  <p class="course-desc">当前课程学习人数：79</p>
                 </div>
               </a>
               <a href="https://coding.imooc.com/class/276.html" class="course-link" target="_blank">
                 <div class="course-item">
                   <img class="course-img" src="https://serverless-project-static-files.oss-cn-beijing.aliyuncs.com/apiServerImages/ssr.jpg" />
                   <p class="course-desc">React服务器渲染原理解析与实践</p>
-                  <p class="course-desc">当前课程学习人数：41</p>
+                  <p class="course-desc">当前课程学习人数：27</p>
                 </div>
               </a>
               <a href="https://coding.imooc.com/class/316.html" class="course-link" target="_blank">
                 <div class="course-item">
                   <img class="course-img" src="https://serverless-project-static-files.oss-cn-beijing.aliyuncs.com/apiServerImages/webpack.jpg" />
                   <p class="course-desc">手把手带你掌握新版Webpack4.0</p>
-                  <p class="course-desc">当前课程学习人数：40</p>
+                  <p class="course-desc">当前课程学习人数：48</p>
                 </div>
               </a>
             </div>
