@@ -1,0 +1,22 @@
+{
+  "name": "day01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/demo.ts",
+    "dev2": "ts-node ./src/demo2.ts",
+    "dev3": "ts-node ./src/demo3.ts",
+    "dev4": "ts-node ./src/demo4.ts",
+    "dev5": "ts-node ./src/demo5.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
