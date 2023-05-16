@@ -8,7 +8,11 @@
     "dev2": "ts-node ./src/demo2.ts",
     "dev3": "ts-node ./src/demo3.ts",
     "dev4": "ts-node ./src/demo4.ts",
-    "dev5": "ts-node ./src/demo5.ts"
+    "dev5": "ts-node ./src/demo5.ts",
+    "dev6": "ts-node ./src/demo6.ts",
+    "dev7": "ts-node ./src/demo7.ts",
+    "dev8": "ts-node ./src/demo8.ts",
+    "dev9": "ts-node ./src/demo9.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +21,7 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "reflect-metadata": "^0.1.13",
     "typescript": "^5.0.4"
   }
 }
